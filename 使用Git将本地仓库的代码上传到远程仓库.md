@@ -2,9 +2,7 @@
 
 ****
 
-**目录**
-
-[TOC]
+[hhh](#5.:fire:第一次提交成功以后修改再提交代码) 
 
 ### 1.:fire:创建一个`github`的空仓库
 
@@ -148,7 +146,7 @@
 
 ![](https://raw.githubusercontent.com/1004032560/Git/master/image/successce.png)
 
-**5.`注意事项`**
+**5.注意事项**
 
 > 如果有多个"远程仓库" 或者 "多个分支"
 >
