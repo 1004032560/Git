@@ -10,3 +10,5 @@
 
 [使用Git将本地仓库的代码上传到远程仓库](https://github.com/1004032560/Git/blob/master/使用Git将本地仓库的代码上.md)
 
+[两边仓库内容都不同导致初始合并无法成功](https://github.com/1004032560/Git/blob/master/两边仓库内容都不同导致初始合并无法成功.md)
+
