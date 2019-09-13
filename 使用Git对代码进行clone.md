@@ -16,7 +16,7 @@
 
 [Git下载地址](https://git-scm.com/downloads)
 
-![Git官网-下载](E:\Typora\20190913122756.png)
+![Git官网-下载](E:\git_Repository\image\git官网.png)
 
 网速慢的可以直接通过这个，
 
@@ -38,7 +38,7 @@
 
 在该文件夹内，右击选择`Git Bash Here`
 
-![](E:\Typora\20190913125000.png)
+![](E:\git_Repository\image\gitBash_window.png)
 
 输入`git init`
 
@@ -54,13 +54,13 @@
 
 在GIthub上找到你想要的Clone到本地的Repository
 
-![](E:\Typora\20190913124524.png)
+![](E:\git_Repository\image\创建本地Repository.png)
 
 然后在刚才建立好的新仓库中输入：
 
 `git clone https://github.com/twbs/bootstrap.git`（以bootstrap为例）
 
-![](E:\Typora\20190913130459.png)
+![](E:\git_Repository\image\https_way.png)
 
 Clone好之后就会有提示，如上图所示。
 
@@ -68,7 +68,7 @@ Clone好之后就会有提示，如上图所示。
 
 **2.通过SSH通道惊行Clone（克隆）**
 
-![](E:\Typora\20190913124548.png)
+![](E:\git_Repository\image\ssh_way.png)
 
 使用SSH通道时需要先进行配置
 
@@ -82,7 +82,7 @@ Clone好之后就会有提示，如上图所示。
 
 `ssh-keygen -t rsa -C "你的邮箱"`
 
-![](E:\Typora\20190913131223.png)
+![](E:\git_Repository\image\check_ssh.png)
 
 就会告诉你你的ssh通道秘钥在那个文件里
 
