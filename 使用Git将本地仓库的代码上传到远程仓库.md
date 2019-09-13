@@ -1,4 +1,4 @@
-**将本地文件上传到`Github`上**
+**使用`Git`将本地仓库的代码上传到远程仓库**
 
 ****
 
@@ -6,13 +6,13 @@
 
 [TOC]
 
-### 1.创建一个github的空仓库
+### 1.:fire:创建一个`github`的空仓库
 
 ![](E:\git_Repository\image\create_repository.png)
 
 
 
-### 2.复制clone的链接地址
+### 2.:fire:复制`clone`的链接地址
 
 > 通过`SSH`或者`HTTPS`两种方法
 >
@@ -22,7 +22,7 @@
 
 
 
-### 3.初始化本地仓库
+### 3.:fire:初始化本地仓库
 
 > 找到要上传的本地文件的位置
 >
@@ -30,7 +30,9 @@
 >
 > 输入如下命令行
 
-![]()
+![](https://raw.githubusercontent.com/1004032560/Git/master/image/gitBash_window.png)
+
+
 
 **1.`git init`**
 
@@ -41,6 +43,8 @@
 > 如果看不到的话可能是文件被隐藏了
 >
 > 点击 "查看——>勾选隐藏项目" 就可以看到了
+
+![](https://raw.githubusercontent.com/1004032560/Git/master/image/git_init.png)
 
 
 
@@ -60,9 +64,11 @@
 >
 > 例如：`git commit -m "增加文档说明"`
 
+![](https://raw.githubusercontent.com/1004032560/Git/master/image/ready_commit.png)
 
 
-### 4.连接到远程仓库，并将代码同步到远程仓库
+
+### 4.:fire:连接到远程仓库，并将代码同步到远程仓库
 
 **1.`git remote add origin git@github.com:1004032560/Test.git`**
 
@@ -98,9 +104,19 @@
 >
 > 耐心等待一会就好
 
+![](https://raw.githubusercontent.com/1004032560/Git/master/image/20190913165559.png)
+
+![](https://raw.githubusercontent.com/1004032560/Git/master/image/20190913165634.png)
+
+> 出现上边这些提示以后就说明
+>
+> 初次将本地代码提交到`github`已经成功了
+>
+> 如果有问题：请参考
 
 
-### 5.第一次提交成功以后修改再提交代码
+
+### 5.:fire:第一次提交成功以后修改再提交代码
 
 **1.`git add .`**
 
@@ -130,6 +146,8 @@
 >
 > 默认推送到 别名为 `origin` 的仓库中的 `master` 分支上
 
+![](https://raw.githubusercontent.com/1004032560/Git/master/image/successce.png)
+
 **5.`注意事项`**
 
 > 如果有多个"远程仓库" 或者 "多个分支"
@@ -142,3 +160,4 @@
 >
 > > git pull 仓库别名 仓库分支名
 > > git push 仓库别名 仓库分支名
+

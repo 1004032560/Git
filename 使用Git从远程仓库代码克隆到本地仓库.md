@@ -1,6 +1,8 @@
-## 使用Git对代码进行clone
+**使用`Git`从远程仓库代码克隆到本地仓库**
 
-> **注意：（win10系统下）**
+****
+
+> **注意：（`win10`系统下）**
 
 
 
@@ -8,13 +10,13 @@
 
 [TOC]
 
-### :fire:Git安装
+### 1​.:fire:`Git`安装
 
-在Windows上安装Git，
+在`Windows`上安装`Git`，
 
-可以直接从Git的官网上下载安装程序，
+可以直接从`Git`的官网上下载安装程序，
 
-[Git下载地址](https://git-scm.com/downloads)
+[`Git`下载地址](https://git-scm.com/downloads)
 
 ![Git官网-下载](https://raw.githubusercontent.com/1004032560/Git/master/image/git官网.png)
 
@@ -32,9 +34,9 @@
 
 
 
-### :fire:克隆Github代码
+### 2​.:fire:克隆`Github`代码
 
-选择一个需要放置clone文件的文件夹
+选择一个需要放置`clone`文件的文件夹
 
 在该文件夹内，右击选择`Git Bash Here`
 
@@ -42,7 +44,7 @@
 
 输入`git init`
 
-会告诉你一个空的git仓库已经建好，在你点击Git Bash Here这里
+会告诉你一个空的`git`仓库已经建好，在你点击`Git Bash Here`这里
 
 `Administrator@SmartCamel MINGW64 /e/architect-awesome`
 `$ git init`
@@ -50,9 +52,9 @@
 
 
 
-**1.通过HTTPS通道惊行Clone（克隆）**
+**1.通过`HTTPS`通道惊行`Clone`（克隆）**
 
-在GIthub上找到你想要的Clone到本地的Repository
+在`GIthub`上找到你想要的`Clone`到本地的`Repository`
 
 ![](https://raw.githubusercontent.com/1004032560/Git/master/image/创建本地Repository.png)
 
@@ -62,15 +64,15 @@
 
 ![](https://raw.githubusercontent.com/1004032560/Git/master/image/https_way.png)
 
-Clone好之后就会有提示，如上图所示。
+`Clone`好之后就会有提示，如上图所示。
 
 
 
-**2.通过SSH通道惊行Clone（克隆）**
+**2.通过SSH通道惊行`Clone`（克隆）**
 
 ![](https://raw.githubusercontent.com/1004032560/Git/master/image/ssh_way.png)
 
-使用SSH通道时需要先进行配置
+使用`SSH`通道时需要先进行配置
 
  `git config --global user.name '用户名'`
 
@@ -78,13 +80,13 @@ Clone好之后就会有提示，如上图所示。
 
 
 
-通过这个命令行，找到ssh所在的位置
+通过这个命令行，找到`ssh`所在的位置
 
 `ssh-keygen -t rsa -C "你的邮箱"`
 
 ![](https://raw.githubusercontent.com/1004032560/Git/master/image/check_ssh.png)
 
-就会告诉你你的ssh通道秘钥在那个文件里
+就会告诉你你的`ssh`通道秘钥在那个文件里
 
 找到`id_rsa.pub`后，右击，选择编辑，进入之后，将文本内容全部复制下来
 
@@ -104,7 +106,7 @@ Clone好之后就会有提示，如上图所示。
 
 然后再在刚才建立好的新仓库中输入：
 
-`git clone git@github.com:twbs/bootstrap.git`（以bootstrap为例）
+`git clone git@github.com:twbs/bootstrap.git`（以`bootstrap`为例）
 
 出现和使用`https`时的内容则就表示`Clone`成功
 
