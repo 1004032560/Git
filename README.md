@@ -2,6 +2,8 @@
 
 这个Repository是我在使用Git时遇到的问题和操作的方式
 
+:bug::beetle:
+
 ****
 
 ### 目录
