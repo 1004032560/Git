@@ -1,6 +1,6 @@
 
 
-这个Repository是我在使用Git时遇到的问题和操作的方式
+这个Repository是我在使用Git与GitHub时遇到的问题和操作的方式
 
 :bug::beetle:
 
@@ -14,3 +14,4 @@
 
 [3.两边仓库内容都不同导致初始合并无法成功](https://github.com/1004032560/Git/blob/master/3.两边仓库内容都不同导致初始合并无法成功.md)
 
+[4.Git&Github基本操作与分支管理](https://github.com/1004032560/Git/blob/master/4.Git%26Github基本操作与分支管理.md)
